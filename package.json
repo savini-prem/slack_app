@@ -1,0 +1,18 @@
+{
+  "name": "safety-escalation slack app",
+  "version": "1.0.0",
+  "description": "slack slash command /safe that creates a high sev Jira ticket in the SAFE project",
+  "main": "index.js",
+  "dependencies" : {
+    "express" : "4.17.1",
+    "request" : "2.88.0",
+    "body-parser" : "1.19.0",
+    "dotenv" : "8.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/savini-prem/slack_app"
+  },
+  "author": "Savini Prematilleke",
+  "license": "ISC"
+}
