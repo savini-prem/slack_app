@@ -1,12 +1,12 @@
-FROM node:10
+FROM node:10.9.0
 
 WORKDIR /usr/src/app
 
-COPY package.json package.json
+COPY package.json ./
 
 RUN npm install
 
-COPY index.js index.js
+COPY . .
 
 EXPOSE 1005
 CMD ["node", "index.js"]

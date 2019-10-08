@@ -1,5 +1,5 @@
 {
-  "name": "safety-escalation slack app",
+  "name": "safety-escalation-slack-app",
   "version": "1.0.0",
   "description": "slack slash command /safe that creates a high sev Jira ticket in the SAFE project",
   "main": "index.js",
