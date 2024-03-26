@@ -4,7 +4,7 @@
   "description": "slack slash command /safe that creates a high sev Jira ticket in the SAFE project",
   "main": "index.js",
   "dependencies" : {
-    "express" : "4.17.1",
+    "express" : "4.19.2",
     "request" : "2.88.0",
     "body-parser" : "1.19.0",
     "dotenv" : "8.1.0"
